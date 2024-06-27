@@ -8,6 +8,7 @@ class ItemProvider with ChangeNotifier {
     _selecteditem.add(item);
     notifyListeners();
   }
+
   void removeItem(item) {
     _selecteditem.remove(item);
     notifyListeners();
